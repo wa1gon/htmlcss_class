@@ -83,3 +83,19 @@ h1 {
 .clearfix {
     clear: both;
 }
+ul {
+    list-style-type: none;
+}
+.list-inline {
+    padding: 1em;
+    float: left;
+
+}
+.featureFlexItem {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#featureFlexContainer {
+    display: flex;
+    flex-basis: 25%;   
+}
