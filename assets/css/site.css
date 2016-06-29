@@ -116,3 +116,19 @@ ul {
     }
 }
 
+@media (max-width:768px ) {
+
+    #featureFlexContainer {
+       flex-direction: column; 
+    }
+    #whyus {
+        display: none;
+    }
+    .headerImg {
+        float: : none;
+    }
+    .headerH1 {
+        float: none;
+    }
+}
+
