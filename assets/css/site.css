@@ -3,7 +3,6 @@ body {
     font-size: 14px;
 }
 
-
 .well { 
     /*background-color: coral !important;*/
     min-height: 20px;
@@ -99,3 +98,21 @@ ul {
     display: flex;
     flex-basis: 25%;   
 }
+
+
+@media (max-width:768px ) {
+    body {
+        background-color: yellow;
+    }
+}
+@media (min-width:992px ) {
+    #accountInfo {
+        float: left;
+        width:  50%;
+    }
+    #address {
+        width: 50%;
+        float: left;
+    }
+}
+
