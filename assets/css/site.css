@@ -125,10 +125,16 @@ ul {
         display: none;
     }
     .headerImg {
-        float: : none;
+        float: none;
+        max-width: 100%;
     }
     .headerH1 {
         float: none;
     }
+    header h1 h2 p {
+        max-width: 100%;
+        float: none;
+    }
+
 }
 
